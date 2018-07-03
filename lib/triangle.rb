@@ -4,6 +4,7 @@ class Triangle
   
   def initialize (attributes)
     attributes.each {|key, value| self.send(("#{key}="), value)}
+    self.find_type
   end
   
   def find_type
