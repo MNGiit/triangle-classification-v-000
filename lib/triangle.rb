@@ -25,7 +25,7 @@ class Triangle
   def checkpoint
     is_triangle = true
     [one, two, three].each {|number| is_triangle = false if number <= 0}
-    is_triangle
+    raise TriangleError if is_triangle == false
   end
   
   class TriangleError < StandardError
