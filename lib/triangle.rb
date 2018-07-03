@@ -8,7 +8,7 @@ class Triangle
     @three = three
   end
   
-  def find_type
+  def kind
     @type = "equilateral" if @side_one == @side_two && @side_two == @side_three
   end
   
