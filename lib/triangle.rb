@@ -11,6 +11,7 @@ class Triangle
   def kind
     if @side_one == @side_two && @side_two == @side_three
       :equilateral
+    elsif 
     end
     
     #@type = :equilateral if @side_one == @side_two && @side_two == @side_three
