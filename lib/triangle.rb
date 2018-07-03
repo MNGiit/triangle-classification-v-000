@@ -1,11 +1,11 @@
 class Triangle
   # write code here
-  attr_accessor :one, :two, :three
+  attr_accessor :x, :y, :z
   
   def initialize(one, two, three)
-    @one = one
-    @two = two
-    @three = three
+    @x = x
+    @y = y
+    @z = z
   end
   
   def kind
