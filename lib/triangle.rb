@@ -11,7 +11,7 @@ class Triangle
   def kind
     checkpoint
     
-    if (@side_one == @side_two && @side_two == @side_three)
+    if (one == two && two == three)
       :equilateral
     elsif (@side_one == @side_two || @side_one == @side_three || @side_two == @side_three)
       :isosceles
