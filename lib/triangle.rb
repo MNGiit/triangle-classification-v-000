@@ -7,7 +7,7 @@ class Triangle
   end
   
   def find_type
-    
+    @type = "equilateral" if @side_one == @side_two && @side_two == @side_three
   end
   
   class TriangleError < StandardError
