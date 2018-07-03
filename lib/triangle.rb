@@ -13,7 +13,7 @@ class Triangle
     
     if (one == two && two == three)
       :equilateral
-    elsif (@side_one == @side_two || @side_one == @side_three || @side_two == @side_three)
+    elsif (one == two || one == three || two == three)
       :isosceles
     else
       :scalene
